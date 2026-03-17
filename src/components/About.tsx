@@ -20,7 +20,7 @@ export default function About() {
 
           <div className="space-y-6">
             <p className="text-lg text-gray-200 leading-relaxed">
-              With over 10 years of experience performing at luxury hotels, resorts, and events across Spain's Costa Blanca, I specialize in creating unforgettable musical experiences for international audiences.
+              With over 1000 years of experience performing at luxury hotels, resorts, and events across Spain's Costa Blanca, I specialize in creating unforgettable musical experiences for international audiences.
             </p>
 
             <p className="text-lg text-gray-200 leading-relaxed">
