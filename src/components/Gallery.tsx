@@ -30,9 +30,9 @@ export default function Gallery() {
     <section id="gallery" className="py-24 bg-gradient-to-b from-blue-950/30 to-purple-950/40 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Gallery</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Galería</h2>
           <div className="accent-line mx-auto mb-6"></div>
-          <p className="text-xl text-gray-300">Moments from recent performances</p>
+          <p className="text-xl text-gray-300">Momentos de actuaciones recientes</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">

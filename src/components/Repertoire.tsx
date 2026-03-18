@@ -4,23 +4,23 @@ export default function Repertoire() {
   const genres = [
     {
       icon: Music2,
-      title: 'International Pop',
+      title: 'Pop Actual',
       songs: ['Ed Sheeran', 'Bruno Mars', 'Adele', 'The Weeknd', 'Dua Lipa']
     },
     {
       icon: Heart,
-      title: 'Classic Hits',
-      songs: ['Frank Sinatra', 'Elvis Presley', 'The Beatles', 'Queen', 'Eagles']
+      title: 'Clásicos Atemporales',
+      songs: ['Frank Sinatra', 'The Beatles', 'Queen', 'Eagles', 'David Bowie']
     },
     {
       icon: Sun,
-      title: 'Summer Vibes',
-      songs: ['Latin Pop', 'Reggaeton', 'Beach Classics', 'Party Anthems', 'Dance Hits']
+      title: 'Música de Verano',
+      songs: ['Latin Pop', 'Reggaeton', 'Éxitos de Playa', 'Temas Animados', 'Hits Bailables']
     },
     {
       icon: Sparkles,
-      title: 'Romantic Ballads',
-      songs: ['Spanish & English', 'Perfect for Dinners', 'Intimate Settings', 'Love Songs']
+      title: 'Baladas Románticas',
+      songs: ['Interpretaciones Españolas', 'Perfectas para Cenas', 'Ambiente Elegante', 'Éxitos Atemporales']
     }
   ];
 
@@ -28,11 +28,11 @@ export default function Repertoire() {
     <section id="repertoire" className="py-24 bg-gradient-to-b from-purple-950/30 to-blue-950/40 relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Repertoire</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Repertorio</h2>
           <div className="accent-line mx-auto mb-6"></div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            A diverse selection of music to suit any audience and occasion.
-            All repertoire can be adapted to your hotel's specific requirements.
+            Amplio repertorio musical adaptable a cualquier tipo de evento y público.
+            Flexible y abierto a solicitudes específicas según las necesidades del lugar.
           </p>
         </div>
 
@@ -58,10 +58,10 @@ export default function Repertoire() {
 
         <div className="bg-gradient-to-r from-purple-900/20 to-blue-900/20 border border-purple-500/30 rounded-xl p-8 text-center">
           <p className="text-xl text-white mb-2">
-            <span className="gradient-text font-semibold">Bilingual Performances</span>
+            <span className="gradient-text font-semibold">Interpretaciones en Dos Idiomas</span>
           </p>
           <p className="text-gray-300">
-            Songs performed in English and Spanish, perfect for international hotel guests
+            Canciones en español e inglés, perfecto para públicos nacionales e internacionales
           </p>
         </div>
       </div>

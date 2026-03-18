@@ -31,18 +31,18 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl md:text-2xl lg:text-3xl gradient-text mb-4 font-semibold tracking-wide">
-          Professional Live Singer
+          Cantante de Música en Vivo
         </p>
 
         <p className="text-lg md:text-xl text-gray-200 mb-12 max-w-2xl mx-auto">
-          For Hotels, Resorts & Summer Events
+          Entretenimiento Profesional para Hoteles y Eventos
         </p>
 
         <button
           onClick={scrollToContact}
           className="btn-primary text-lg"
         >
-          Book a Performance
+          Contáctame
         </button>
       </div>
 

@@ -4,31 +4,31 @@ export default function ShowFormats() {
   const formats = [
     {
       icon: Mic2,
-      title: 'Acoustic Show',
-      description: 'Intimate acoustic performances with guitar, perfect for sophisticated venues',
-      duration: '45-90 minutes',
-      ideal: 'Lounges, terraces, intimate settings'
+      title: 'Acústico',
+      description: 'Actuaciones íntimas con guitarra, perfectas para ambientes sofisticados',
+      duration: '45-90 minutos',
+      ideal: 'Lounges, terrazas, espacios íntimos'
     },
     {
       icon: Music,
-      title: 'Full Production',
-      description: 'High-energy performance with backing tracks and professional sound',
-      duration: '60-120 minutes',
-      ideal: 'Main stages, evening entertainment'
+      title: 'Show Completo',
+      description: 'Presentación con energía y acompañamiento de backing tracks profesional',
+      duration: '60-120 minutos',
+      ideal: 'Escenarios principales, entretenimiento nocturno'
     },
     {
       icon: Utensils,
-      title: 'Dinner Music',
-      description: 'Elegant background music creating the perfect dining atmosphere',
-      duration: '2-3 hours',
-      ideal: 'Restaurant, gala dinners'
+      title: 'Música para Cena',
+      description: 'Música elegante de fondo creando atmósfera perfecta para la comida',
+      duration: '2-3 horas',
+      ideal: 'Restaurante, cenas de gala'
     },
     {
       icon: PartyPopper,
-      title: 'Party Set',
-      description: 'Upbeat, interactive show to get guests dancing and engaged',
-      duration: '60-90 minutes',
-      ideal: 'Pool parties, night shows'
+      title: 'Set Animado',
+      description: 'Show energético e interactivo para animar y hacer disfrutar al público',
+      duration: '60-90 minutos',
+      ideal: 'Fiestas en piscina, shows nocturnos'
     }
   ];
 
@@ -36,10 +36,10 @@ export default function ShowFormats() {
     <section id="formats" className="py-24 bg-gradient-to-b from-blue-950/30 via-purple-950/20 to-blue-950/30 relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Show Formats</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Formatos de Actuación</h2>
           <div className="accent-line mx-auto mb-6"></div>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Flexible performance options tailored to your venue and audience
+            Opciones flexibles adaptadas a tu espacio, público y necesidades específicas
           </p>
         </div>
 
@@ -54,11 +54,11 @@ export default function ShowFormats() {
               <p className="text-gray-300 mb-4 leading-relaxed">{format.description}</p>
               <div className="space-y-2">
                 <div className="flex items-center text-sm">
-                  <span className="gradient-text font-semibold mr-2">Duration:</span>
+                  <span className="gradient-text font-semibold mr-2">Duración:</span>
                   <span className="text-gray-400">{format.duration}</span>
                 </div>
                 <div className="flex items-center text-sm">
-                  <span className="gradient-text font-semibold mr-2">Ideal for:</span>
+                  <span className="gradient-text font-semibold mr-2">Ideal para:</span>
                   <span className="text-gray-400">{format.ideal}</span>
                 </div>
               </div>
@@ -68,10 +68,10 @@ export default function ShowFormats() {
 
         <div className="mt-12 text-center bg-gradient-to-r from-purple-900/20 to-blue-900/20 border border-purple-500/30 rounded-xl p-8">
           <p className="text-white text-lg mb-2">
-            All formats include professional sound equipment and can be customized to your needs
+            Todos los formatos incluyen equipo de sonido profesional y se adaptan a tus requerimientos
           </p>
           <p className="text-gray-400">
-            Multiple sets available for extended bookings
+            Disponible para sesiones prolongadas y bookings flexibles
           </p>
         </div>
       </div>

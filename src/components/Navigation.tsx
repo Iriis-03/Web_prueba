@@ -24,12 +24,12 @@ export default function Navigation() {
           </button>
 
           <div className="hidden md:flex space-x-8">
-            <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-purple-400 transition-colors font-medium">About</button>
-            <button onClick={() => scrollToSection('video')} className="text-gray-300 hover:text-purple-400 transition-colors font-medium">Performance</button>
-            <button onClick={() => scrollToSection('repertoire')} className="text-gray-300 hover:text-purple-400 transition-colors font-medium">Repertoire</button>
-            <button onClick={() => scrollToSection('hotels')} className="text-gray-300 hover:text-purple-400 transition-colors font-medium">For Hotels</button>
+            <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-purple-400 transition-colors font-medium">Sobre mí</button>
+            <button onClick={() => scrollToSection('video')} className="text-gray-300 hover:text-purple-400 transition-colors font-medium">Videos</button>
+            <button onClick={() => scrollToSection('repertoire')} className="text-gray-300 hover:text-purple-400 transition-colors font-medium">Repertorio</button>
+            <button onClick={() => scrollToSection('formats')} className="text-gray-300 hover:text-purple-400 transition-colors font-medium">Formatos</button>
             <button onClick={() => scrollToSection('contact')} className="btn-primary !px-6 !py-2 text-sm">
-              Book Now
+              Contacto
             </button>
           </div>
 
@@ -45,12 +45,12 @@ export default function Navigation() {
       {isOpen && (
         <div className="md:hidden bg-gradient-to-b from-blue-950/98 to-purple-950/95 border-t border-purple-500/20">
           <div className="px-4 py-4 space-y-4">
-            <button onClick={() => scrollToSection('about')} className="block w-full text-left text-gray-300 hover:text-purple-400 py-2 font-medium">About</button>
-            <button onClick={() => scrollToSection('video')} className="block w-full text-left text-gray-300 hover:text-purple-400 py-2 font-medium">Performance</button>
-            <button onClick={() => scrollToSection('repertoire')} className="block w-full text-left text-gray-300 hover:text-purple-400 py-2 font-medium">Repertoire</button>
-            <button onClick={() => scrollToSection('hotels')} className="block w-full text-left text-gray-300 hover:text-purple-400 py-2 font-medium">For Hotels</button>
+            <button onClick={() => scrollToSection('about')} className="block w-full text-left text-gray-300 hover:text-purple-400 py-2 font-medium">Sobre mí</button>
+            <button onClick={() => scrollToSection('video')} className="block w-full text-left text-gray-300 hover:text-purple-400 py-2 font-medium">Videos</button>
+            <button onClick={() => scrollToSection('repertoire')} className="block w-full text-left text-gray-300 hover:text-purple-400 py-2 font-medium">Repertorio</button>
+            <button onClick={() => scrollToSection('formats')} className="block w-full text-left text-gray-300 hover:text-purple-400 py-2 font-medium">Formatos</button>
             <button onClick={() => scrollToSection('contact')} className="btn-primary w-full !px-6 !py-3 text-sm mt-2">
-              Book Now
+              Contacto
             </button>
           </div>
         </div>
